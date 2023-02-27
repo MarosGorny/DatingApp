@@ -363,3 +363,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 API/appsettings.json
+/client/.vscode
+.idea/DatingApp.iml
+.idea/modules.xml
+.idea/vcs.xml
