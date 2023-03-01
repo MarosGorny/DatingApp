@@ -7,7 +7,13 @@ namespace API.DTOs
 {
     public class LoginDto
     {
-        public string Username { get; set; }
+        private string _username;
+        public string Username 
+        { 
+            get => _username.ToLower();
+            set => _username = value.ToLower();
+        }
+
         public string Password { get; set; }
     }
 }
