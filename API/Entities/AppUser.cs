@@ -17,9 +17,11 @@ namespace API.Entities
 
         public string KnownAs { get; set; }
 
-        public DateTime Create { get; set; } = DateTime.UtcNow;
+        public DateTime Created { get; set; } = DateTime.UtcNow;
 
         public DateTime LastActive { get; set; } = DateTime.UtcNow;
+
+        public string Introduction { get; set; }
 
         public string Gender { get; set; }
 
