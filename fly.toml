@@ -1,6 +1,6 @@
-# fly.toml file generated for da-mg-course on 2023-03-10T02:04:13+01:00
+# fly.toml file generated for da-course-mg on 2023-03-10T19:24:50+01:00
 
-app = "da-mg-course"
+app = "da-course-mg"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "ams"
